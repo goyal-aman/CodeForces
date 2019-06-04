@@ -1,4 +1,8 @@
-print('NYOE S'[sum(i in '47' for i in input()) in [4,7]::2])
+s =  input()
+print( 'NYOE S'[sum([s.count('4') + s.count('7')])in [4,7] ::2] )
+
+
+#print('NYOE S'[sum(i in '47' for i in input() )in [4,7]::2])
 
 
 # s = input()
