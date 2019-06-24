@@ -1,5 +1,5 @@
 cost, r = map(int, input().split())
-for i in range(1,1001):
-    if (cost*i) % 10 in [0, r]:
-        print(i)
-        exit()
+i = 1
+while cost*i%10!=0 and cost*i%10!=r:
+    i+=1
+print(i)
