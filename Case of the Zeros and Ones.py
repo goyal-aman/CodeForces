@@ -1,0 +1,5 @@
+n = int(input())
+s = input()
+ones = s.count('1')
+zeroes = s.count('0')
+print(n - 2*min(ones, zeroes))
