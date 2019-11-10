@@ -12,7 +12,6 @@ def findIndex(num, li, lo, hi):
 
 n = int(input())
 prices = sorted(map(int, input().split()))
-# print(prices)
 q = int(input())
 for _ in range(q):
     money = int(input())
